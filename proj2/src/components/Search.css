@@ -1,0 +1,107 @@
+body {
+  background-color: #efefef;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 70px;
+  width: 80%;
+}
+
+.boards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 70px;
+  width: 85%;
+}
+
+.input_search {
+    width: 512px;
+    margin: 0;
+    height: 30px;
+    background: none;
+    /* border-bottom: 1px solid #d63461; */
+    border-radius: 0;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    padding: 0 5px;
+    position: relative;
+   
+}
+
+.input_div {
+    width: 512px;
+    /* width가 주어진 상태에서 좌우 중앙 정렬 */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: 6rem; */
+    border-radius: 4px;
+    /* overflow: hidden; */
+    /* display: flex; */
+    background: #495057;
+
+
+}
+.ss {
+    background: #22b8cf;
+    color: white;
+    height: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+
+.is{
+  display: flex;
+  background: #495057;
+}
+
+.List {
+  min-height: 920px;
+  max-height: 913px;
+  overflow-y: auto;
+}
+
+.line{
+  border:2px solid rgb(125, 127, 250);
+  width: 512px; 
+  height:920px;
+}
+
+.button{
+  width:40px;
+  background-color:#22b8cf;
+  color: white;
+  box-shadow: 1px 1px;
+  border-radius: 5px;
+  margin-left: 8px;
+  
+}
